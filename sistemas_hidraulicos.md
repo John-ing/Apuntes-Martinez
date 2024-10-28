@@ -56,7 +56,7 @@ Todas las figuras que incluya deben ser generadas por ustedes, **no utilizar las
 💡**Ejemplo 2:**
 
 ![Figura de prueba](images/plantilla/Captura2.PNG)
-
+![bulma](https://www.fayerwayer.com/resizer/OOyr71E0z5QOnmKiSh04Yr-BF6I=/arc-photo-metroworldnews/arc2-prod/public/KYNOPBBBKBB5JJEW5I5ESEVOAA.png)
 Figura 1. Figura de prueba
 
 Incluya la respectiva etiqueta a modo de descripción de la figura y mantenga numeración consecutiva para todas las figuras de la clase.
