@@ -5,7 +5,30 @@ Agregue todos los subtítulos que considere necesarios para estructurar el conte
 
 ## 2. Definiciones
 Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
->🔑 *Definición:* descripción precisa y clara del significado de una palabra, término, concepto o fenómeno. Es una explicación que establece los límites y el alcance de aquello que se está definiendo, aclarando su naturaleza, características esenciales y, en algunos casos, su relación con otros conceptos.
+>🔑 *Aspectos a tener en cueta:* Para estos sistemas de tanques de almacenamiento industriales se requiere mantener flujo y o niveles constantes en donde:
+	 q_(i  ):Flujo de entrada. 
+	q_(o   ):Flujo de salida.
+	R_1:Resistencia al flujo.
+	A_1:Area transversal del tanque.
+	h_1:Nivel del fluido del tanque.
+Ver figura1.
+.
+
+
+Por lo cual el modelo matemático es el siguiente:
+ Flujo de salida: 
+q_1=h_1/R_1   ,   h_1=q_1 xR_1
+Intercambio de energía: 
+                                                                     A_1 x 〖dh〗_1/dt= q_i-q_1
+Por lo cual se toma en cuenta que qi es la entrada del sistema y h1 como su salida…
+Debido a que 
+q_1=h_1/R_1 
+y teniendo en cuenta que:
+  A_1 x 〖dh〗_1/dt= q_i-q_1
+
+podemos afirmar que:
+A_1 x 〖dh〗_1/dt= q_i-h_1/R_1 
+Para el caso de dos tanques separados en el cual uno alimenta a otro se realiza el análisis de los tanque por separado y la salida del primer tanque se convierte en la entrada del segundo tanque.Ver figura.2.
 
 ## 3. Subsecciones
 Las subsecciones pueden utilizarse para sub dividir ciertos temas que se tienen en clases, por ejemplo si se está trabajandolos conversores D/A, puede ser necesario subdividir este en circuito de resistencias ponderadas y circuito de escalera R2R. 
