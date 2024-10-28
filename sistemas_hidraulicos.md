@@ -18,14 +18,17 @@ Ver figura1.
 Por lo cual el modelo matemático es el siguiente:
  Flujo de salida: 
  ![](ec_2.png).
- $$R=\frac{V}{I}$$
+
 q_1=h_1/R_1   ,   h_1=q_1 xR_1
 Intercambio de energía: 
+![](ec_3.png).
+
                                                                      A_1 x 〖dh〗_1/dt= q_i-q_1
 Por lo cual se toma en cuenta que qi es la entrada del sistema y h1 como su salida…
 Debido a que 
 q_1=h_1/R_1 
 y teniendo en cuenta que:
+![](ec_5.png).
   A_1 x 〖dh〗_1/dt= q_i-q_1
 
 podemos afirmar que:
